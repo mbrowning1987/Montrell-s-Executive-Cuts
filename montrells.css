@@ -1,0 +1,249 @@
+
+/* BIO */
+.bio {
+    text-align: center;
+padding-top: 20px;
+}
+
+.about {
+    text-decoration: underline;
+    font-size: 30px;
+    
+}
+.info {
+    line-height: 25px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* // BIO */
+
+/* FOOTER */
+.foot {
+    color: black;
+    font-weight: bold;
+    height: 125px;
+    text-align: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRje38s5lB9Dew9JLef1YJBimpHnzjtCNCUJCEIXHs-V_g6Ha0OiA);
+}
+
+
+
+/* //footer */
+
+/* NavBAR css */
+
+.navbar {
+    color: black;
+    font-weight: bolder;
+    background-color: white;
+}
+.nav-item:hover {
+    /* color: red !important; */
+    border-bottom: 3px solid #b28446;
+}
+
+
+
+/* //NavBAR css */
+
+/* LOGO css */
+
+.logo {
+ width: 130px;
+ border-radius: 10%;
+}
+
+/* //LOGO css */
+
+/* PIC css */
+
+.pic {
+    height: 400px !important;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  
+}
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  
+/* //PIC css */
+
+
+.order {
+    list-style-type: none;
+}
+
+/* CARD DECK ALTERCATIONS */
+.card-deck {
+    text-align: center;
+    padding-top: 20px;
+  
+}
+.card-img-top {
+   
+    width: 150px !important;
+    height: 150px !important; 
+      
+  }
+  .card-img-top:hover {
+opacity: .6;
+  }
+
+.card {
+    border: none !important;
+}
+ul li{
+    display: inline;
+    padding: 20px;
+  
+  }
+  .order {
+      padding-top: 20px;
+  }
+
+
+
+.card-body {
+    height: 75px !important;
+   
+}
+.card-title {
+    text-decoration: underline;
+    text-decoration-color: #b28446;
+    text-decoration-style: 3px solid;
+}
+
+/*  // CARD DECK ALTERCATIONS */
+
+
+/* MEDIA QUERIES */
+@media (max-width: 760px) {
+    .about {
+        font-size: 20px;  
+    }
+}
+@media (max-width: 760px) {
+.info {
+    line-height: 20px;
+    font-size: 15px;
+}
+
+@media (max-width: 700px) {
+    .card-title{
+        font-size: 15px;
+
+    }
+}
+@media (max-width: 1000px) {
+    .card-deck {
+        padding-left: 50px;
+    }
+}
+@media (max-width: 760px) {
+    .card-deck {
+        padding-left: 25px;
+    }
+}
+
+@media (max-width: 760px) {
+    .logo {
+        width: 100px;
+    }
+}
+@media (max-width: 400px) {
+    .logo {
+        width: 80px;
+    }
+}
+@media (max-width: 760px) {
+    .pic {
+        height: 200px !important;
+    }
+}
+@media (max-width: 450px) {
+    .pic {
+        height: 150px !important;
+    }
+}
+@media (max-width: 560px) {
+    .card-img-top {
+        width: 100px !important;
+        height:  100px !important;
+    }
+}
+@media (max-width: 560px) {
+.card-body {
+    margin-left: -25px;
+    
+}
+}
+@media (max-width: 990px ) {
+    .nav-item {
+        text-align: center;
+    }
+}
+@media (max-width: 990px ) {
+    a:hover {
+    border-bottom: none;
+    color: #b28446 !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .foot {
+        height: 75px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* UNUSED CODE< COULD POSSIBLY USE AGAIN */
+
+
+/* @media (max-width: 580px) {
+    .card-deck {
+        padding-left: 190px;
+    }
+} */
+/* @media (max-width: 470px) {
+    .card-deck {
+        padding-left: 150px;
+    }
+} */
+/* @media (max-width:380px) {
+    .card-deck {
+        padding-left: 100px;
+    }
+} */
+/* @media (max-width:325px) {
+    .card-deck {
+        padding-left: 75px;
+    }
+} */
+ /* height: 100px !important;
+        width: 100px !important; */
+
+  /* padding-left: 130px; */
+     /* width: 150px !important; */
+  /* height: 150px; */

@@ -21,13 +21,25 @@
    height: 400px !important;
 }
 
+.serve {
+
+    text-align: center;
+
+}
+.served {
+    padding-top: 30px;
+}
+
+
+
 
 #services {
+    color: white;
     text-align: center;
     padding-top: 90px;
     font-size: 4em;
     font-family: cursive;
-    color: white;
+    
     text-decoration: underline;
 }
 
@@ -112,8 +124,26 @@ ul li{
     padding-top: 50px !important;
     }
 }
-
-
+@media (max-width: 780px) {
+    .serve {
+        font-size: 1.5em;
+    }
+}
+@media (max-width: 540px) {
+    .serve {
+        font-size: 1.2em;
+    }
+}
+@media (max-width: 420px) {
+    .serve {
+        font-size: 1em;
+    }
+}
+@media (max-width: 380px) {
+    .serve {
+        font-size: .8em;
+    }
+}
 /* UNUSED CODE */
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */

@@ -70,6 +70,7 @@ img {
     display: flex;
   }
   
+  
   .column {
     flex: 10%;
     padding: 5px;
@@ -83,7 +84,9 @@ img {
     text-align: center;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRje38s5lB9Dew9JLef1YJBimpHnzjtCNCUJCEIXHs-V_g6Ha0OiA);
 }
-
+.trial {
+    font-size: 1.7em;
+}
 .order {
     list-style-type: none;
 }

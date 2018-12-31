@@ -41,6 +41,7 @@
 .list {
     text-align: center;
     list-style-type: none;
+    margin-bottom: 0;
 }
 li {
     padding-top: 8px;
@@ -63,14 +64,26 @@ li {
 } 
 
 /* FOOTER */
+/* FOOTER */
 .foot {
     color: black;
     font-weight: bold;
+    padding-top: 20px;
     height: 125px;
     text-align: center;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRje38s5lB9Dew9JLef1YJBimpHnzjtCNCUJCEIXHs-V_g6Ha0OiA);
 }
+.order {
+    list-style-type: none;
+    
+}
 
+.order, .red {
+    display: inline;
+    padding: 20px;
+    
+}
+/* //footer */
 
 
 /* //footer */
